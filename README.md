@@ -7,7 +7,7 @@ TODO
 * [x] initial **github** repository
 * [x] **TODO** list :)
 * [x] **command line** git & GitHub
-* [ ] add **i3 files**
-* [ ] add **i3blocks**
+* [x] add **i3 files**
+* [x] add **i3blocks**
 * [ ] add **scripts**
 * [ ] add **icons** to i3block
