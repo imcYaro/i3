@@ -9,5 +9,5 @@ TODO
 * [x] **command line** git & GitHub
 * [x] add **i3 files**
 * [x] add **i3blocks**
-* [ ] add **scripts**
+* [x] add **scripts**
 * [ ] add **icons** to i3block
