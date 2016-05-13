@@ -128,7 +128,7 @@ bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
 
-# move focused container to workspace
+# move focused container to works
 bindsym $mod+Shift+1 move container to workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2
 bindsym $mod+Shift+3 move container to workspace $ws3
@@ -193,6 +193,11 @@ for_window [class="Floating"]      floating enable
 for_window [class="Xfce4-notifyd"] floating enable; border none; focus mode_toggle
 for_window [window_role="pop-up"]  floating enable
 
+#TODO
+# bindsym Mod1+Prior exec --no-startup-id xdotool key Home
+# bindsym Mod1+Next  exec --no-startup-idxdotool key End
+
+
 ### Shortcuts ###
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -c 1 sset 'Master' 5%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -c 1 sset 'Master' 5%-
@@ -250,3 +255,8 @@ mode $modeLinks {
         bindsym Escape mode "default"
 }
 bindsym $mod+g mode $modeLinks
+
+# autostart :)
+exec autokey
+exec dropbox
+exec /usr/bin/xbindkeys
